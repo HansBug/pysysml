@@ -135,7 +135,7 @@ jobs:
         os:
           - 'ubuntu-20.04'
           - 'windows-2019'
-          - 'macos-12'
+          - 'macos-13'
         python-version:
           - '3.8.0'
 
@@ -248,7 +248,7 @@ jobs:
           ls -al dist
           dist/pysysml -v
           dist/pysysml -h
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: pysysml-v${{ env.PACKAGE_VERSION }}-${{ env.OS_NAME }}-${{ env.CPU_ARCH }}-${{ env.GIT_COMMIT_ID }}
           path: dist
