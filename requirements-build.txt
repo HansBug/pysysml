@@ -1,3 +1,2 @@
-pyinstaller>=4.7,<5
-setuptools<70
+pyinstaller>=5.13.1
 tqdm
