@@ -1,21 +1,23 @@
-# pysysml
+# pysysml (Legacy Archive)
 
-[![PyPI](https://img.shields.io/pypi/v/pysysml)](https://pypi.org/project/pysysml/)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pysysml)
-![Loc](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/0c7e256103b605f905f9e72124239494/raw/loc.json)
-![Comments](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/HansBug/0c7e256103b605f905f9e72124239494/raw/comments.json)
+This repository is a frozen, historical work-in-progress snapshot of an
+early Python SysML project. It is retained for provenance and reference only.
 
-[![Code Test](https://github.com/HansBug/pysysml/workflows/Code%20Test/badge.svg)](https://github.com/HansBug/pysysml/actions?query=workflow%3A%22Code+Test%22)
-[![Package Release](https://github.com/HansBug/pysysml/workflows/Package%20Release/badge.svg)](https://github.com/HansBug/pysysml/actions?query=workflow%3A%22Package+Release%22)
-[![codecov](https://codecov.io/gh/HansBug/pysysml/branch/main/graph/badge.svg?token=XJVDP4EFAT)](https://codecov.io/gh/HansBug/pysysml)
+There is no ongoing development promise, support commitment, or current
+release associated with this repository. It is not a current SysML v2 parser,
+semantic frontend, or model-checking implementation, and it should not be
+treated as a supported dependency.
 
-![GitHub Org's stars](https://img.shields.io/github/stars/HansBug)
-[![GitHub stars](https://img.shields.io/github/stars/HansBug/pysysml)](https://github.com/HansBug/pysysml/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/HansBug/pysysml)](https://github.com/HansBug/pysysml/network)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/HansBug/pysysml)
-[![GitHub issues](https://img.shields.io/github/issues/HansBug/pysysml)](https://github.com/HansBug/pysysml/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/HansBug/pysysml)](https://github.com/HansBug/pysysml/pulls)
-[![Contributors](https://img.shields.io/github/contributors/HansBug/pysysml)](https://github.com/HansBug/pysysml/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/HansBug/pysysml)](https://github.com/HansBug/pysysml/blob/master/LICENSE)
+The repository was initially developed in March 2025 and was archived after
+that exploratory work was discontinued. Its history is preserved by the
+repository rename and archive status; no files have been deleted.
 
-(WIP) Python Library for all sysml core features and analysis
+The PyPI project named [`pysysml`](https://pypi.org/project/pysysml/) is a
+separate Open-MBEE/Systemica project and is not published by this repository.
+
+## Historical packaging note
+
+The repository's `LICENSE` file and the historical `setup.py` metadata do not
+agree about the license (GPL-3.0 versus Apache-2.0). Do not treat this
+snapshot as a clean, redistributable dependency without reviewing its history
+and licensing details yourself.
